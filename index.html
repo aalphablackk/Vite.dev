@@ -52,15 +52,27 @@
         </li>
 
       </ul>
-      <form class="d-flex" role="search">
-        
-        <input class="form-control" type="search" placeholder="Search" aria-label="Search"/>
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
+      
 
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle/ text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            <!----> <i class="fa-solid fa-angle-down" style="font-size: 10px;"></i>
+        <div>
+            <div class="search-bar">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <span >Search</span>
+                <span class="shortcut">Ctrl K</span>
+            </div>
+        </div>
+
+
+        <div class="nav-item dropdown mx-4">
+          <a class="nav-link dropdown-toggle/ text-white d-flex align-items-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+             <div class="text-white d-flex" style="font-size: 10px;">
+            <span>文 </span>
+            <span class="mt-2 d-inline-block" style="margin-left: -8px;">A</span>
+        </div> 
+        <div>
+
+            <i class="fa-solid fa-angle-down d-block" style="font-size: 10px; margin-left: -10px;"></i>
+        </div>
           </a>
           <ul class="dropdown-menu text-white">
             <li><a class="dropdown-item" href="#">Action</a></li>
@@ -68,13 +80,16 @@
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="#">Something else here</a></li>
           </ul>
-        </li>
+        </div>
+        <div>
+
+            <i class="fa-brands fa-bluesky me-2"></i>
+            <i class="fa-brands fa-mastodon me-2"></i>
+            <i class="fa-brands fa-x-twitter me-2" ></i>
+            <i class="fa-brands fa-discord me-2"></i>
+            <i class="fa-brands fa-github me-2"></i>
+        </div>
         
-      <i class="fa-brands fa-bluesky"></i>
-      <i class="fa-brands fa-mastodon"></i>
-      <i class="fa-brands fa-x-twitter" ></i>
-      <i class="fa-brands fa-discord"></i>
-      <i class="fa-brands fa-github"></i>
     </div>
   </div>
 </nav>
@@ -89,6 +104,9 @@
         <span style="color: #867E8E; font-size: 11px;">BY <img src="media/download (1).svg" alt="" width="10%"></span>
         <h1>The Build Tool for the Web</h1>
         <p>Vite is a blazing fast frontend build tool powering the next generation of web applications.</p>
+            <button type="button" class="btn btn-outline-light " style="width: 27%; border: 1px solid #3B3440;">View on Github</button>
+
+
 
     </div>
     <div class="h-100/ w-50 " style="border-left: 1.5px solid#322D37;">
@@ -99,10 +117,10 @@
 
 
 <!-- Section 2 -->
-<section class=" container border-top-0 d-flex" style="border: 1.5px solid#322D37; height: 80px;">
+<section class=" container border-top-0 d-flex p-3" style="border: 1.5px solid#322D37; height: fit-content;">
     <div class=" d-flex">
 
-        <h6 class="container text-white d-flex align-items-center" style="font-size: 20px;">Trusted by the world's best software teams</h6>
+        <h6 class="container text-white d-flex align-items-center m-0" style="font-size: 20px;">Trusted by the world's best software teams</h6>
     </div>
 
 
@@ -504,34 +522,137 @@
 
 
 
-<section class="d-flex container flex-wrap border-top-0 p-0" style="border: 1.5px solid#322D37; height: fit-content;">
+<section class="d-flex container flex-wrap border-top-0 p-5" style="border: 1.5px solid#322D37; height: fit-content;">
 
-    <div class="h-100/ w-50 text-white p-0"   style="border-right: 1.5px solid#322D37;">
-        <div class="p-4">
+    <div class="h-100/ w-50 text-white p-0 d-flex my-5">
+        <div class="  d-flex flex-column m-auto" style="width: 95%;">
 
-            <h5 style="font-size: 24px;">Instant Server Start</h5>
-            <p style="color: #867E8E; width: 70%;">On demand source file serving over native ESM, with blazing fast dependency pre-bundling.</p>
+            <h3 style="font-size: 40px;">Free & open source</h3>
+            <p style="width: 80%;">Vite is MIT Licensed and will always be free and open source. This is made possible by our contributors and these companies:</p>
+            <button type="button" class="btn btn-outline-light mt-4" style="width: 40%; border: 1px solid #3B3440;">Become a Sponsor</button>
         </div>
-        <div style="background-image: url(media/vite-featurepanel-1-background.BHnDg8j4.jpg); background-size: cover;" class="p-5">
-
-            <img src="media/vite-featurepanel-1-terminal.CQVUoUSU.svg" alt="" width="100%" >
-        </div>
+        
 
     </div>
-    <div class="h-100/ w-50  flex-column p-0 " >
-        <div class=" text-white p-4">
-            <h5 style="font-size: 24px;">Lightning Fast HMR</h5>
-            <p style="color: #867E8E; width: 65%;">Instantly reflect changes as you save, no matter how big your app is.</p>
-            
-        </div>
-        <div class="d-flex mt-auto justify-content-end p-0">
+    <div class="h-100/ w-50 d-flex p-0 justify-content-center" >
+        <div class="d-flex align-items-center justify-content-end">
 
-            <img src="media/vite-featurepanel-2-terminal.ChpAU6sR.png" alt="" width="85%" class="p-0">
+            <img src="media/vite-by-voidzero.D7bblMgo.png" alt=""  width="60%" class="p-0">
         </div>
     </div>
 
 </section>
 
+
+<!-- Section 14 -->
+
+<section class=" container border-top-0 d-flex p-4" style="border: 1.5px solid#322D37; height: fit-content;">
+    <div class=" d-flex ">
+
+        <h6 class="container text-white text-uppercase p-0 m-0" style="font-size: 12px;">In partnership with</h6>
+    </div>
+
+
+</section>
+
+
+
+<!-- Section 15 -->
+
+<section class="border-top-0 d-flex container" style="height: fit-content; border: 1.5px solid#322D37;">
+   
+    <div class=" p-5 justify-content-center d-flex " style="width: 50%; border-right: 1.5px solid#322D37;"> <img src="media/download (3).svg" width="30%" alt="" class="icon"></div>
+    <div class=" p-4 justify-content-center d-flex" style="width: 50%;"> <img src="media/download (4).svg" width="40%" alt=""></div>
+    
+</section>
+
+<!-- Section 16 -->
+
+<section class=" container border-top-0 d-flex p-4" style="border: 1.5px solid#322D37; height: fit-content;">
+    <div class=" d-flex ">
+
+        <h6 class="container text-white text-uppercase p-0 m-0" style="font-size: 12px;">Platinum Sponsors</h6>
+    </div>
+</section>
+
+
+<!-- Section 17 -->
+
+<!-- <div class=" text-center border-top-0 d-flex container m-0 p-0" style="height: fit-content; border: 1.5px solid#322D37;">
+  <div class="row row-cols-3 d-flex container m-0 p-0">
+    <div class="col p-5 justify-content-center d-flex" style=" border-right: 1.5px solid#322D37;"><img src="media/storyblok.png" alt="" width="80%"></div>
+    <div class="col p-5 justify-content-center d-flex" style=" border-right: 1.5px solid#322D37;"><img src="media/coderabbit_.png" alt="" width="80%"></div>
+    <div class="col p-5 justify-content-center d-flex" ><img src="media/greptile.png" alt="" width="80%"></div>
+    <div class="col p-5 justify-content-center d-flex" style=" border-right: 1.5px solid#322D37; border-top: 1.5px solid#322D37;"><img src="media/railway.svg" alt="" width="80%"></div>
+    <div class="col p-5 justify-content-center d-flex" style=" border-right: 1.5px solid#322D37; border-top: 1.5px solid#322D37;"><img src="media/serpapi.png" alt="" width="80%"></div>
+    <div class="col p-5 justify-content-center d-flex" style="border-top: 1.5px solid#322D37;"></div>
+  </div>
+</div> -->
+
+
+
+
+
+<div class=" text-center border-top-0 d-flex container m-0 p-0" style="height: fit-content; border: 1.5px solid#322D37;">
+  <div class="row row-cols-3 d-flex container m-0 p-0 align-items-center">
+    <div class="col p-5 justify-content-center d-flex" style=" border-bottom: 1.5px solid#322D37;border-right: 1.5px solid#322D37;"><img src="media/storyblok.png" alt="" width="60%" height="50px"></div>
+    <div class="col p-5 justify-content-center d-flex" style="border-bottom: 1.5px solid#322D37; border-right: 1.5px solid#322D37;"><img src="media/coderabbit_.png" alt="" width="60%" height="50px" ></div>
+    <div class="col p-5 justify-content-center d-flex " style="border-bottom: 1.5px solid#322D37;" ><img src="media/greptile.png" alt="" width="60%" height="50px"></div>
+    
+    <div class="col p-5 justify-content-center d-flex" style=" border-right: 1.5px solid#322D37;"><img src="media/railway.svg" alt="" width="60%" height="50px"></div>
+    <div class="col p-5 justify-content-center d-flex" style=" border-right: 1.5px solid#322D37;"><img src="media/serpapi.png" alt="" width="60%" height="50px"></div>
+    
+    
+
+
+
+
+    
+  </div>
+</div>
+
+
+<!-- Section 18 -->
+
+<section class=" container border-top-0 d-flex p-4" style="border: 1.5px solid#322D37; height: fit-content;">
+    <div class=" d-flex ">
+
+        <h6 class="container text-white text-uppercase p-0 m-0" style="font-size: 12px;">Gold Sponsors</h6>
+    </div>
+</section>
+
+
+<!-- Section 19 -->
+
+<div class=" text-center border-top-0 d-flex container m-0 p-0" style="height: fit-content; border: 1.5px solid#322D37;">
+  <div class="row row-cols-5 d-flex container m-0 p-0">
+    <div class="col p-3 justify-content-center d-flex" style=" border-right: 1.5px solid#322D37;"><img src="media/mux.svg" alt="" width="50%"></div>
+    <div class="col p-3 justify-content-center d-flex" style=" border-right: 1.5px solid#322D37;"><img src="media/nx.svg" alt="" width="50%"></div>
+    <div class="col p-3 justify-content-center d-flex" style=" border-right: 1.5px solid#322D37;"><img src="media/transloadit.png" alt="" width="50%"></div>
+    <div class="col p-3 justify-content-center d-flex" style=" border-right: 1.5px solid#322D37;"><img src="media/handsontable.svg" alt="" width="50%"></div>
+    <div class="col p-3 justify-content-center d-flex" ><img src="media/convex.svg" alt="" width="50%"></div>
+    <div class="col p-3 justify-content-center d-flex" style=" border-right: 1.5px solid#322D37;border-top: 1.5px solid#322D37;border-bottom: 1.5px solid#322D37;"><img src="media/tonkotsu.png" alt="" width="50%"></div>
+    <div class="col p-3 justify-content-center d-flex" style=" border-right: 1.5px solid#322D37;border-top: 1.5px solid#322D37;border-bottom: 1.5px solid#322D37;"><img src="media/catalyst.svg" alt="" width="50%"></div>
+    <div class="col p-3 justify-content-center d-flex" style=" border-right: 1.5px solid#322D37;border-top: 1.5px solid#322D37;border-bottom: 1.5px solid#322D37;"><img src="media/zephyr_cloud.png" alt="" width="50%"></div>
+    <div class="col p-3 justify-content-center d-flex" style=" border-right: 1.5px solid#322D37;border-top: 1.5px solid#322D37;border-bottom: 1.5px solid#322D37;"><img src="media/sanity.svg" alt="" width="50%"></div>
+    <div class="col p-3 justify-content-center d-flex" style="border-top: 1.5px solid#322D37; border-bottom: 1.5px solid#322D37;"><img src="media/mojam.svg" alt="" width="50%"></div>
+    <div class="col p-4 justify-content-center d-flex" style=" border-right: 1.5px solid#322D37; "><img src="media/follower24.svg" alt="" width="50%"></div>
+    <div class="col p-4 justify-content-center d-flex" style=" border-right: 1.5px solid#322D37; "></div>
+    <div class="col p-4 justify-content-center d-flex" style=" border-right: 1.5px solid#322D37; "></div>
+    <div class="col p-4 justify-content-center d-flex" style=" border-right: 1.5px solid#322D37; "></div>
+    <div class="col p-4 justify-content-center d-flex" style=" border-right: 1.5px solid#322D37; "></div>
+    
+
+
+
+
+    
+  </div>
+</div>
+
+
+
+<!-- Section 20 -->
 
 
 

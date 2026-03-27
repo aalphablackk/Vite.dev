@@ -11,3 +11,40 @@
 -webkit-box-shadow: 0px -109px 71px -76px rgba(22,23,29,0.88) inset;
 -moz-box-shadow: 0px -109px 71px -76px rgba(22,23,29,0.88) inset;
 }
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #14121A; 
+  border-radius: 6px;
+  padding: 8px 12px;
+  width: fit-content;
+  font-family: Arial, sans-serif;
+  color: #98989F;
+  font-size: 14px;
+}
+
+
+
+.search-bar .shortcut {
+  color: #98989F; /* slightly dimmer gray for shortcut */
+  font-size: 12px;
+  border: 1px solid #2E2E32;
+  border-radius: 3px;
+  padding: 3px 7px;
+  margin-left: 5px;
+
+}
+
+
+.fa-magnifying-glass{
+    color: #98989F;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.fa-brands{
+    color: #98989F;
+
+}
