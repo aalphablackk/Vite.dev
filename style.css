@@ -48,3 +48,21 @@
     color: #98989F;
 
 }
+
+.cutt{
+ 
+  clip-path: polygon(
+    8px 0, calc(100% - 8px) 0, 100% 8px, 100% calc(100% - 8px),
+    calc(100% - 8px) 100%, 8px 100%, 0 calc(100% - 8px), 0 8px
+  );
+  
+}
+.cutt::before {
+
+  /* position: absolute; */
+  /* inset: 0; */
+  /* background: transparent; */
+   /* color for the little cut corners */
+  
+  /* z-index: -1; */
+}
