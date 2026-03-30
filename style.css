@@ -44,17 +44,17 @@
    
     @media (max-width: 1007px) {
      .scroll{
-       animation: scrollRight 20s linear infinite;       
-     }
+       animation: scrollRight 20s linear infinite;   
+      }
       @keyframes scrollRight {
-     from { transform: translateX(100%); }
-     to   { transform: translateX(-100%); }
-   }
-   }
-
-     @media (max-width: 640px) {
+        from { transform: translateX(100%); }
+        to   { transform: translateX(-100%); }
+      }
+    }
+    
+    @media (max-width: 640px) {
       .scroll{
-        animation: scrollRight 20s linear infinite;
+        animation: scrollRight 20s linear infinite;    
       }
        @keyframes scrollRight {
       from { transform: translateX(28%); }
