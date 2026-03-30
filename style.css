@@ -35,3 +35,7 @@
 .color:hover{
   color: #B39AFF;
 }
+
+.gray{
+  filter: grayscale(100) brightness(0) invert(1);
+}
