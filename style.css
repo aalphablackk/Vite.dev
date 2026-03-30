@@ -15,6 +15,17 @@
 
 .fa-brands{
     color: #98989F;
+}
+.fa-brands:hover{
+    color: #FFFFFF;
+}
+.dim:hover{
+  opacity: 0.7;
+}
+
+.trans:hover{
+
+      transform: scale(1.1); /* makes it 20% bigger */
 
 }
 
@@ -38,7 +49,15 @@
 
 
 .gray{
-  filter: grayscale(100) brightness(0) invert(1);
+  filter: grayscale(100) brightness(1) invert(0.6);
+}
+
+.gray:hover{
+  filter: grayscale(100) brightness(1) invert(1);
+}
+.shine:hover{
+  border: 1px solid;
+  border-image: url(media/footer-background.BIgtbvhx.jpg) 30 round;
 }
 
    
