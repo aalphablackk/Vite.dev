@@ -200,9 +200,9 @@
                 
 <ul class="nav nav-tabs mt-5 border-bottom border-black d-lg-flex d-none " id="myTab" role="tablist" style="background-color: #14121A;">
   <li class="nav-item " role="presentation">
-    <div class="box activee" >
+    <div class="box" >
 
-      <div class="nav-link text-white border-0 dim" id="npm-tab" data-bs-toggle="tab" data-bs-target="#npm-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true" style="background-color: transparent;"><span >npm</span></div>
+      <div class="nav-link text-white border-0 dim " id="npm-tab" data-bs-toggle="tab" data-bs-target="#npm-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true" style="background-color: transparent;"><span >npm</span></div>
     </div>
   </li>
   <div class="box" >
@@ -959,12 +959,32 @@
 </section>
 
 
+<script>
+  // Select all divs with class "box"
+  const boxes = document.querySelectorAll(".box");
+
+  // Find the one that already has 'activee' in the markup
+  let activeBox = document.querySelector(".box.activee");
+
+  boxes.forEach(box => {
+    box.addEventListener("click", () => {
+      // Remove active class from the previously active box
+      if (activeBox) {
+        activeBox.classList.remove("activee");
+      }
+      // Add active class to the clicked one
+      box.classList.add("activee");
+      // Update the reference
+      activeBox = box;
+    });
+  });
+</script>
 
 
 
 
 
-
+<!-- 
     
  <script>
     // Select all divs with class "box"
@@ -977,7 +997,7 @@
         // Add active class to the clicked one
         box.classList.add("activee");
       });
-    });
+    }); -->
   </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
