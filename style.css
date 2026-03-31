@@ -6,13 +6,6 @@
 .card-text{
     color: #B9B7BB;
 }
-.section12{
-    border: 2px solid red;
-    box-shadow: 0px -109px 71px -76px rgba(22,23,29,0.88) inset;
--webkit-box-shadow: 0px -109px 71px -76px rgba(22,23,29,0.88) inset;
--moz-box-shadow: 0px -109px 71px -76px rgba(22,23,29,0.88) inset;
-}
-
 .fa-brands{
     color: #98989F;
 }
@@ -22,36 +15,25 @@
 .dim:hover{
   opacity: 0.7;
 }
-
 .trans:hover{
-
-      transform: scale(1.1); /* makes it 20% bigger */
-
+      transform: scale(1.1);
 }
-
 .cutt{
- 
   clip-path: polygon(
     8px 0, calc(100% - 8px) 0, 100% 8px, 100% calc(100% - 8px),
     calc(100% - 8px) 100%, 8px 100%, 0 calc(100% - 8px), 0 8px
   );
-  
 }
-
 .nav-item.dropdown:hover .dropdown-menu {
   display: block;
   margin-top: 0; 
 }
-
 .color:hover{
   color: #B39AFF;
 }
-
-
 .gray{
   filter: grayscale(100) brightness(1) invert(0.6);
 }
-
 .gray:hover{
   filter: grayscale(100) brightness(1) invert(1);
 }
@@ -59,8 +41,6 @@
   border: 1px solid;
   border-image: url(media/footer-background.BIgtbvhx.jpg) 30 round;
 }
-
-   
     @media (max-width: 1007px) {
      .scroll{
        animation: scrollRight 20s linear infinite;   
@@ -70,7 +50,6 @@
         to   { transform: translateX(-100%); }
       }
     }
-    
     @media (max-width: 640px) {
       .scroll{
         animation: scrollRight 20s linear infinite;    
@@ -80,3 +59,28 @@
       to   { transform: translateX(-100%); }
     }
     }
+    .box {
+      cursor: pointer;
+      border-bottom: none; 
+    }
+    .activee {
+      border-bottom: 3px solid #B39AFF; 
+    }
+  .clip{
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    top: 10%;
+    right: 1%;
+  }
+  .clippp{
+    opacity: 1;
+    transition: opacity 0.3s ease;
+    font-size: 11px;
+    font-weight: 500px;
+  }
+  .clipp:hover .clip{
+    opacity: 1;
+  }
+  .clipp:hover .clippp{
+    opacity: 0;
+  }
